@@ -1,0 +1,36 @@
+\documentclass[a4 paper, 12 pt]{article}
+\usepackage{amssymb}
+%\usepackage{texcomp}
+\usepackage{amsmath}
+
+
+\begin{document}
+	\title{\textbf{LATEX AND HTML}}
+	\maketitle
+	\begin{center}
+		\author{\textbf{{\Large Tutorial-5 }}}\\
+	\end{center}
+		Hence the ratio test fails and we now apply Raabe's test.\\
+		\\
+		
+		Using(1), $\hspace{5em} n\left(\frac{u_{n}}{u_{n+1}}-1\right) = n\left[\frac{4n^{2}+8n+4}{4n^{2+4n+1}}-1\right] = \frac{4n^{2}+3n}{4n^{2}+4n+1} \hspace{8em}\ldots(2)$\\
+		\\
+		
+		$\therefore \hspace{8em} \lim\limits_{n\to\infty} n\left[\frac{u_{n}}{u_{n+1}}-1\right]= \lim\limits_{n\to\infty}\frac{4+(3/n)}{4+(4/n)+(1/n^{2})}=1$\\
+		\\
+		Hence the Raabe's test fails and we now apply De-Morgan's and Bertrand's test.\\
+		\\
+		From(2),$\hspace{7em} n\left[\frac{u_{n}}{u_{n+1}}-1\right]= \frac{4n^{2}+3n}{4n^{2}+4n+1}-1 = \frac{-n-1}{4n^{2}+4n+1}$\\
+		\\
+		 
+		 $ \therefore \quad \left\lbrace n \left(\frac{u_{n}}{u_{n+1}}-1\right)-1\right\}logn = -\frac{(n+1)logn}{4n^{2}+4n+1} = -\frac{1+(1/n)}{4+(4/n)+(1/n^{2})}.\frac{logn}{n}$\\
+		 \\
+		 and so $\hspace{2em} \lim\limits_{n\to\infty}\left\lbrace n \left(\frac{u_{n}}{u_{n+1}}-1\right)-1\right\}logn = -\frac{1}{4}*0 = 0 < 1, as \lim\limits_{n\to\infty} \frac{logn}{n} = 0$\\
+		 \\
+		 Hence, by De-Morgen's and bertrand's test $\sum u_{n}$ diverges.\\
+		 
+		\ \ (ii) Here $\hspace{5em} u_{n} = \frac{a(a+1)(a+2)\ldots\ldots(a+n-1)}{b(b+1)(b+2)\ldots\ldots(b+n-1)}.$\\
+		
+		 and $\hspace{5em} u_{n+1} = \frac{a(a+1)(a+2)\ldots\ldots(a+n-1)(a+n)}{b(b+1)(b+2)\ldots\ldots(b+n-1)(b+n)}$\\
+		
+\end{document}
