@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\begin{document}
+	\title{Latex and Html}
+	\maketitle
+	\begin{center}
+	\author{\textbf{\large tutorial -7}}
+	\end{center}
+\begin{tabular}{|c| c| c| c|}
+	 \hline
+	a&b&c&d\\
+	\hline
+	1&2&3&4\\
+	\hline
+	5&6&7&8\\
+	\hline
+	9&10&11&12\\
+	\hline
+\end{tabular}
+\vspace{2cm}
+
+\begin{tabular}{|c| c| c| c|}
+	\hline
+	\multicolumn{4}{|c|}{text}\\
+	\hline
+	a&b&c&d\\
+	\hline
+	1&2&3&4\\
+	\hline
+	5&6&7&8\\
+	\hline
+\end{tabular}
+\vspace{2cm}
+
+\begin{tabular}{|c| c| c| c|}
+	\hline
+	Sr& \multicolumn{3}{|c|}{text}\\
+	\cline{2-4}
+	No.&data1&data2&data3\\
+	\hline
+	1&2&3&4\\
+	\hline
+	5&6&7&8\\
+	\hline
+	9&10&11&12\\
+	\hline
+\end{tabular}
+\end{document}
